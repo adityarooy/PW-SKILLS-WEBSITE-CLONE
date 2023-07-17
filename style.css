@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital@1&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', 'sans-serif';
+    background-color: #fefefe;
+}
+.Headercontainer{
+    min-width: 1200px;
+    margin: auto;
+    padding: 0px 8rem;
+}
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.logo > img{
+    width: 10rem;
+}
+form > input {
+    width: 40rem;
+    height: 2.75rem;
+    border: none;
+}
+form {
+    margin-left: 3rem;
+    border: 1px solid #626262;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+form > ::placeholder {
+    font-size: 1rem;
+}
+input{
+    padding-left: 1rem;
+}
+form input:focus{
+    outline: none;
+}
+button{
+    padding: 0.5rem 1rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #6555ee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subheader{
+    margin-top: 1rem;
+    padding: 0px 2rem;
+}
+.subheader > nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav i{
+    font-size: 12px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.Bigimage > img{
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.section01con{
+    min-width: 1200px;
+    margin: auto;
+    padding: 5rem 8rem;
+}
+.section01con > h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #6555ee;
+}
+hr {
+    border-bottom: 3px solid #ffd900;
+    margin: 5px 32rem;
+}
+.PureHardworkSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.image01 > img{
+    width: 165px;
+    padding-left: 4rem;
+}
+.image02 > img{
+    width: 165px;
+    padding-left: 4rem;
+}
+.image03 > img{
+    width: 165px;
+    padding-left: 4rem;
+}
+.image01 > p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #6555ee;
+}
+.image01 > span{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-weight: bolder;
+    color: #808080;
+}
+.image02 > p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #6555ee;
+}
+.image02 > span{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #808080;
+}
+.image03 > p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #6555ee;
+}
+.image03 > span{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #808080;
+}
+.achievesection{
+    background-color: #e2e2e2;
+    width: 100%;
+    height: 400px;
+}
+.achievecontent{
+    min-width: 1200px;
+    margin: auto;
+    padding: 5rem 3rem;
+}
+.achievesection > h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 4rem;
+    color: #6555ee;
+}
+.achievecontent > img{
+    width: 200px;
+    padding: 0px 2rem;
+}
+.halloffamecontainer{
+    min-width: 1200px;
+    margin: auto;
+    padding: 5rem 8rem;
+}
+.halloffamecontainer > h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #6555ee;
+}
+.card{
+    width: 30%;
+    height: auto;
+    background-color: #fefefe;
+    padding: 3rem;
+    box-shadow: 2px 2px #c9c9c9;
+    border-radius: 5px;
+}
+.card > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    padding-top: 4rem;
+}
+.card01 h1{
+    font-size: 20px;
+}
+.card01 .sub-title{
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #808080;
+}
+.card01 .para{
+    margin-top: 18px;
+    color: #626262;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.card02 h1{
+    font-size: 20px;
+}
+.card02 .sub-title{
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #808080;
+}
+.card02 .para{
+    margin-top: 18px;
+    color: #626262;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.card03 h1{
+    font-size: 20px;
+}
+.card03 .sub-title{
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #808080;
+}
+.card03 .para{
+    margin-top: 18px;
+    color: #626262;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.card01 span {
+    font-size: 1.75rem;
+}
+.card02 span {
+    font-size: 1.75rem;
+}
+.card03 span {
+    font-size: 1.75rem;
+}
+.viewbtn{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+    color: #626262;
+    cursor: pointer;
+}
+.Popularprogramscontainer{
+    min-width: 1200px;
+    margin: auto;
+    padding: 0rem 8rem;
+}
+.Popularprogramscontainer > h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #6555ee;
+}
+.Popularprogramscontainer > p{
+    text-align: center;
+    font-size: 18px;
+    color: #626262;
+}
+.programcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+    margin-top: 4rem;
+}
+.procard > img{
+    width: 350px;
+}
+.procard{
+    width: 400px;
+    height: auto;
+    background-color: #F1F6F9;
+    padding: 1.75rem;
+    border-radius: 1rem;
+}
+.procard01 > .coursename{
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color: #6555ee;
+}
+.procard01 > .teacher{
+    margin-top: 2.75rem;
+}
+.procard01 > .courseprice{
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+    font-weight: bold;
+}
+.procard02 > .coursename{
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color: #6555ee;
+}
+.procard02 > .teacher{
+    margin-top: 2.75rem;
+}
+.procard02 > .courseprice{
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+    font-weight: bold;
+}
+.procard03 > .coursename{
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color: #6555ee;
+}
+.procard03 > .teacher{
+    margin-top: 2.75rem;
+}
+.procard03 > .courseprice{
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+    font-weight: bold;
+}
+.viewbtn01{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+    color: #626262;
+    cursor: pointer;
+}
+.Popularprogramscontainer02{
+    min-width: 1200px;
+    margin: auto;
+    padding: 0rem 8rem;
+}
+.Popularprogramscontainer02 > h1{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #6555ee;
+}
+.Popularprogramscontainer02 > p{
+    text-align: center;
+    font-size: 18px;
+    color: #626262;
+}
+.CommunityProcontainer{
+    min-width: 1200px;
+    margin: auto;
+    padding: 5rem 8rem;
+}
+.CommunityProcontainer > h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #6555ee;
+}
+.CommunityProcontainer > p{
+    text-align: center;
+    font-size: 18px;
+    color: #626262;
+}
+.CommunityProcontent{
+    display: flex;
+    justify-content: center;
+    gap: 2.75rem;
+    margin-top: 4rem;
+}
+.ComCard > img{
+    width: 350px;
+}
+.ComCard {
+    width: 400px;
+    height: auto;
+    background-color: #F1F6F9;
+    padding: 1.75rem;
+    border-radius: 1rem;
+}
+.comcard-1 > h1 {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color: #6555ee;
+}
+.comcard-1 > .comtea{
+    margin-top: 2.75rem;
+    font-weight: 800;
+}
+.comcard-1 > .comprice{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.comcard-2 > h1 {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color: #6555ee;
+}
+.comcard-2 > .comtea{
+    margin-top: 2.75rem;
+    font-weight: 800;
+}
+.comcard-2 > .comprice{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.comcard-3 > h1 {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color: #6555ee;
+}
+.comcard-3 > .comtea{
+    margin-top: 2.75rem;
+    font-weight: 800;
+}
+.comcard-3 > .comprice{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.productcontainer{
+    min-width: 1200px;
+    margin: auto;
+    padding: 0rem 8rem;
+}
+.productcontainer > h1{
+    font-size: 3rem;
+    color: #6555ee;
+    text-align: center;
+}
+.productcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+.product{
+    width: 25%;
+    text-align: center;
+}
+.product-01 > h3{
+    font-size: 24px;
+    margin-bottom: 1.75rem;
+}
+.product-02 > h3{
+    font-size: 24px;
+    margin-bottom: 1.75rem;
+}
+.product-03 > h3{
+    font-size: 24px;
+    margin-bottom: 1.75rem;
+}
+.product-04 > h3{
+    font-size: 24px;
+    margin-bottom: 1.75rem;
+}
+.product-05 > h3{
+    font-size: 24px;
+    margin-bottom: 1.75rem;
+}
+.product-01 > p{
+    font-size: 18px;
+    color: #626262;
+}
+.product-02 > p{
+    font-size: 18px;
+    color: #626262;
+}
+.product-03 > p{
+    font-size: 18px;
+    color: #626262;
+}
+.product-04 > p{
+    font-size: 18px;
+    color: #626262;
+}
+.product-05 > p{
+    font-size: 18px;
+    color: #626262;
+}
+/*================== 
+    Footer section
+====================*/
+.footercontainer{
+    min-width: auto;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 0rem 8rem;
+    background-color: #212A3E;
+    color: #fff;
+}
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.section-01 > img {
+    width: 200px;
+    margin-bottom: 2rem;
+}
+.section-01 .para{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.section-01 .space {
+    margin-right: 15px;
+}
+.footersocials *{
+    margin-right: 1rem;
+    font-size: 25px;
+}
+.footersocials *:hover{
+    color: #765605;
+}
+.footerimg {
+    margin-top: 3rem;
+    width: 200px;
+}
+.footerimg > p{
+    margin-left: 1rem;
+}
+.section-02 > h1 {
+    font-size: 30px;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #ffd700;
+}
+td {
+    padding: 1rem 1rem 1rem 0rem;
+}
+table a{
+    color: #fff;
+    text-decoration: none;
+}
+.section-03 > h1{
+    font-size: 30px;
+    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #ffd700;
+}
+.section-03 p{
+    padding-bottom: 1rem;
+}
+.section-03 p:hover{
+    cursor: pointer;
+}
+.chat-bot > img{
+    width: 80px;
+    border-radius: 50%;
+}
+.chat-bot{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
